@@ -1,0 +1,190 @@
+.container {
+	max-width: 1170px;
+	width: 100%;
+	margin: 0 auto;
+}
+.flex{
+	display: flex;
+	justify-content: space-between;
+}
+header {
+	padding: 20px 0;
+
+}
+.logo {
+width: 70px;
+
+}
+
+.navbar-li{
+	color: blue;
+	width: 50px;
+	margin-right: 10px;
+	transition: color  0.5s ease;
+}
+.navbar-li:hover{
+	color: red;
+}
+.social-li{
+	margin-right: 10px;
+	display: flex;
+	
+}
+.social-li:after{
+	content: "";
+	height: 20px;
+	width: 1px;
+	display: block;
+	background-color: red;
+	margin-left:10px;
+}
+
+.glogo{
+	width: 30px;
+	height: 20px;
+}
+
+.flogo{
+	width: 30px;
+	height: 20px;
+}
+
+.youtubelogo{
+	width: 30px;
+	height: 20px;
+}
+
+.searchlogo{
+	width: 30px;
+	height: 20px;
+}
+
+.social-li:last-child:after{
+	display: none;
+}
+
+.section{
+	background-color: blue;
+	display: flex;	
+	justify-content: space-around;
+	height:500px; 
+	align-items: center;
+}
+
+
+.computer{ 
+	background-color: gray;
+    display: flex;
+	justify-content: center;
+	height:500px;
+	align-items: center;
+
+}
+
+.comp{ 
+	height: 400px;
+
+
+}
+/*
+.text{
+	width: 30px;
+	;
+}
+*/
+.box1{
+ width: 350px;
+ height: 350px;
+ background-color: white;
+ text-align: center;
+ vertical-align: center;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.box2{
+	width: 350px;
+	height: 350px;
+	background-color: white;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+.boloswina{
+	background-color: gray;
+	display: flex;	
+	justify-content: space-around;
+	height:400px; 
+	align-items: center;
+
+
+}
+
+.dzagli1 img{
+	width: 250px;
+	display: flex;	
+  flex-direction: column;
+}
+	
+
+
+
+.dzagli2 img{
+	width: 250px;
+	display: flex;	
+	flex-direction: column;
+}
+	
+
+
+.dzagli3  img{ 
+	width: 250px;
+	display: flex;	
+	flex-direction: column;
+	
+}
+.dzagli4 img{
+	width: 250px;
+	display: flex;	
+	flex-direction: column;
+	
+	
+}
+
+.bolo{
+	background-color: yellow;
+	display: flex;	
+	justify-content: space-around;
+	height:500px; 
+	align-items: center;
+}
+
+
+.pepsi img{
+	width: 250px;
+	
+}
+.coca img {
+	width: 250px;
+	
+}
+.qimia1{
+	width: 250px;
+}
+.qimia2{
+	width: 250px;
+}
+
+.pepsi{
+	display: flex;
+	justify-content: space-between;
+}
+
+.coca{
+	display: flex;
+	justify-content: space-between;
+}
